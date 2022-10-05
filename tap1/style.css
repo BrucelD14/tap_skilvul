@@ -36,6 +36,8 @@ nav{
     position: sticky;
     top: 0;
     background-color: #F9F9F9;
+    z-index: 1;
+    border-bottom: 1px solid #251B37;
 }
 
 nav ul{
@@ -60,4 +62,52 @@ nav ul li a{
 
 nav ul li a:hover{
     text-decoration: underline;
+}
+
+
+/* main style */
+section{
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi{
+    font-size: 20px;
+    font-weight: bold;
+    color: #251B37;
+}
+
+h2{
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #251B37;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-pink{
+    background: #9C2C77;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #F9F9F9;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-pink:hover{
+    background: #E14D2A;
+    text-decoration: none;
+}
+
+p{
+    margin: 10px 0px;
+    padding: 10px 0px;
 }
