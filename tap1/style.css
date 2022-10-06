@@ -17,15 +17,9 @@ body{
     position: relative;
 }
 
-.logo a{
-    font-size: 50px;
-    font-weight: 800;
-    float: left;
-    color: #A1C298;
-}
-
 .menu{
-    float: right;
+    display: flex;
+    justify-content: center;
 }
 
 nav{
@@ -49,7 +43,6 @@ nav ul{
 
 nav ul li{
     float: left;
-
 }
 
 nav ul li a{
@@ -69,7 +62,7 @@ nav ul li a:hover{
 section{
     margin: auto;
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 10em;
 }
 
 .kolom{
@@ -92,24 +85,27 @@ h2{
     line-height: 50px;
 }
 
-a.tbl-pink{
-    background: #9C2C77;
-    border-radius: 20px;
-    margin-top: 20px;
-    padding: 15px 20px 15px 20px;
-    color: #F9F9F9;
-    cursor: pointer;
-    font-weight: bold;
-}
-
-a.tbl-pink:hover{
-    background: #E14D2A;
-    text-decoration: none;
-}
-
 p{
+    font-size: 18px;
     margin: 10px 0px;
     padding: 10px 0px;
+}
+
+.kolom .icons p{
+    padding: 5px;
+    font-size: 25px;
+    display: inline-block;
+}
+
+.kolom .icons a{
+    color: #251B37;
+}
+
+/* about style */
+#about img{
+    border-radius: 20px;
+    width: 100%;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 .tengah{
@@ -117,28 +113,36 @@ p{
     width: 100%;
 }
 
-.tutor-list{
-    width: 100%;
-    position: relative;
+.list-portfolio{
     display: flex;
+    flex-direction: column;
+    align-items: center;
     flex-wrap: wrap;
 }
 
-.kartu-tutor{
-    width: 20%;
-    margin: 0 auto;
-}
-
-.kartu-tutor img{
+.card-portfolio{
+    border: 1px solid #251B37;
     width: 80%;
-    border-radius: 50%;
+    margin-bottom: 20px;
+    border-radius: 20px;
 }
 
-.kartu-tutor p{
+.card-portfolio:hover{
+    box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.6);
+}
+
+h4{
     font-weight: 800;
-    font-size: 25px;
-    text-align: center;
+    font-size: 20px;
     color: #251B37;
+    width: 100%;
+    line-height: 50px;
+}
+
+.card-portfolio img{
+    height: 300px;
+    padding: 10px 0px;
+    border-radius: 20px;
 }
 
 .partner-list{
