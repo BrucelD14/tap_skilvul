@@ -157,3 +157,37 @@ p{
     width: 150px;
     border-radius: 50px;
 }
+
+#contact{
+    background: #dedede;
+    padding: 50px 0px;
+}
+
+.footer{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section{
+    width: 20%;
+    margin: 0px auto;
+}
+
+h3{
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #251B37;
+    width: 100%;
+    line-height: 50px;
+}
+
+#copyright{
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px;
+    margin-top: 50px;
+}
