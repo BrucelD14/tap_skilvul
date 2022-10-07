@@ -55,6 +55,9 @@ nav ul li a{
 
 nav ul li a:hover{
     text-decoration: underline;
+    transition: .2s ease;
+    transition-delay: .1s;
+    
 }
 
 
@@ -129,6 +132,8 @@ p{
 
 .card-portfolio:hover{
     box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.6);
+    transition: .2s ease;
+    transition-delay: .1s;
 }
 
 h4{
@@ -163,6 +168,8 @@ h4{
 
 .kartu-blog:hover{
     box-shadow: 3px 3px 8px 0px rgba(37,27,55,0.6);
+    transition: .2s ease;
+    transition-delay: .1s;
 }
 
 .blog-list .kartu-blog p{
