@@ -164,6 +164,7 @@ h4{
     margin: 0 auto;
     border: 2px solid #251B37;
     cursor: pointer;
+    border-radius: 20px;
 }
 
 .kartu-blog:hover{
@@ -186,6 +187,12 @@ h4{
     border-radius: 50px;
     padding: 5px;
     margin: 5px;
+}
+
+.blog-list .kartu-blog address{
+    margin: 5px;
+    float: right;
+    font-size: 10px;
 }
 
 #contact{
