@@ -23,6 +23,12 @@ body{
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
+    margin: 5em 5px;
+    background: #f4f3ee;
+    box-shadow: 6px 5px 5px 0px rgba(3,7,30,0.35);
+    -webkit-box-shadow: 6px 5px 5px 0px rgba(3,7,30,0.35);
+    -moz-box-shadow: 6px 5px 5px 0px rgba(3,7,30,0.35);
+    border-radius: 5px;
 }
 
 #wrapper .form-header{
@@ -42,6 +48,7 @@ body{
     padding: 5px;
     font-size: 20px;
 }
+
 
 form .form-input{
     display: flex;
