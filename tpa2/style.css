@@ -8,78 +8,85 @@ body{
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    color: #03071e;
-    /* background: #e9edc9; */
+    color: #1c2541;
+    background-color: #f8ffe5;
 }
 
 #wrapper{
-    width: 1100px;
+    width: 100%;
     height: 100vh;
     margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-#wrapper form{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    margin: 5em 5px;
-    background: #f4f3ee;
+form{
+    text-align: center;
+    background-color: white;
+    padding: 7em;
+    border-radius: 10px;
     box-shadow: 6px 5px 5px 0px rgba(3,7,30,0.35);
     -webkit-box-shadow: 6px 5px 5px 0px rgba(3,7,30,0.35);
     -moz-box-shadow: 6px 5px 5px 0px rgba(3,7,30,0.35);
-    border-radius: 5px;
 }
 
-#wrapper .form-header{
-    text-align: center;
-    margin: 10px;
-    padding: 20px;
-    width: 50%;
+
+form .form-header{
+    margin: 20px 0;
+    padding: 10px;
 }
 
-#wrapper .form-header h1{
-    margin: 10px;
+form .form-header h1{
+    margin: 10px 0;
     padding: 5px;
+    font-size: 40px;
+    font-weight: 800;
 }
 
-#wrapper .form-header h4{
-    margin: 5px;
+form .form-header h4{
     padding: 5px;
     font-size: 20px;
-}
-
-
-form .form-input{
-    display: flex;
-    flex-direction: column;
-    margin: 5px;
-    padding: 5px;
-    width: 50%;
-}
-
-form .form-input label{
     font-weight: 600;
 }
 
-form .form-input label, form .form-input input{
+form .form-input{
+    margin: 5px;
+    padding: 5px;
+}
+
+form .form-input label{
+    display: block;
     margin: 5px 0px;
-    padding: 10px;
-    border-radius: 3px;
+    padding: 3px;
+    font-size: 18px;
+    text-align: left;
+    width: 100%;
+}
+
+form .form-input input{
+    width: 100%;
+    margin: 5px 0px;
+    padding: 10px 5px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid #403d39;
 }
 
 form button{
-    font-family: Arial, Helvetica, sans-serif;
-    background: #008000;
-    color: #fff;
-    margin: 10px;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 5px;
+    margin: 15px;
+    padding: 10px 25px;
     font-size: 15px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: none;
+    background-color: #007200;
+    color: #fff;
 }
 
-.result-bmi{
-    margin: 20px;
-    padding: 5px 10px;
+form .result-bmi{
+    margin: 5px;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: 700;
 }
