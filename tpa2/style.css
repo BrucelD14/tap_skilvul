@@ -1,0 +1,78 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #03071e;
+    /* background: #e9edc9; */
+}
+
+#wrapper{
+    width: 1100px;
+    height: 100vh;
+    margin: auto;
+}
+
+#wrapper form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#wrapper .form-header{
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    width: 50%;
+}
+
+#wrapper .form-header h1{
+    margin: 10px;
+    padding: 5px;
+}
+
+#wrapper .form-header h4{
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+form .form-input{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding: 5px;
+    width: 50%;
+}
+
+form .form-input label{
+    font-weight: 600;
+}
+
+form .form-input label, form .form-input input{
+    margin: 5px 0px;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+form button{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #008000;
+    color: #fff;
+    margin: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.result-bmi{
+    margin: 20px;
+    padding: 5px 10px;
+}
