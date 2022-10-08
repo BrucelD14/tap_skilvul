@@ -73,6 +73,11 @@ form .form-input input{
     border: 1px solid #403d39;
 }
 
+form .form-input span{
+    color: rgb(207, 1, 1);
+    font-weight: 600;
+}
+
 form button{
     margin: 15px;
     padding: 10px 25px;
