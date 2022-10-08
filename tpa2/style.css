@@ -82,6 +82,14 @@ form button{
     border: none;
     background-color: #007200;
     color: #fff;
+    cursor: pointer;
+}
+
+form button:hover{
+    color: #007200;
+    background-color: white;
+    border: 2px solid #007200;
+    transition: .2s ease-in-out;
 }
 
 form .result-bmi{
